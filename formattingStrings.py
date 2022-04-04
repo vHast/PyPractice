@@ -24,3 +24,16 @@ to indicate the desired length of the string
 For instance "%5d" % (123) will give us " 123"(with 2 spaces in front and a
 total length of 5).
 '''
+
+#Formatting String using format() method
+newMessage = 'The price of this {0:1} laptop is {1:d} USD and the exchange rate is {2:4.2f} USD to 1 EUR'.format('Apple', 1299, 1.235235245)
+print(newMessage)
+
+'''
+Inside the curly bracket, we first write the position of the parameter to use
+followed by a colon, we write the formatter
+
+There should not be any spaces within the culry brackets
+
+Positions always start from ZERO
+'''
